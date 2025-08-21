@@ -8,6 +8,9 @@ export default defineConfig({
     outDir: "../dist",
     rollupOptions: {
       input: ["src/index.html", "src/fonts/utopia.css"],
+      output: {
+        assetFileNames: "[name][extname]",
+      },
     },
   },
   plugins: [ViteMinifyPlugin({})],
