@@ -1,2 +1,2 @@
 Open("src/" + $1 + ".pfb")
-Generate("build/" + $2 + ".woff2")
+Generate("dist/" + $2 + ".woff2")
