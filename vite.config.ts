@@ -3,6 +3,7 @@ import { ViteMinifyPlugin } from "vite-plugin-minify";
 
 export default defineConfig({
   root: "src",
+  base: "./",
   build: {
     outDir: "../dist",
     rollupOptions: {
