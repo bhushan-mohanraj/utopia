@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: normal;
   font-stretch: 100%;
-  src: url("./fonts/utopia-regular.woff2") format("woff2");
+  src: url("./woff2/utopia-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -14,7 +14,7 @@
   font-style: italic;
   font-weight: normal;
   font-stretch: 100%;
-  src: url("./fonts/utopia-italic.woff2") format("woff2");
+  src: url("./woff2/utopia-italic.woff2") format("woff2");
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: bold;
   font-stretch: 100%;
-  src: url("./fonts/utopia-bold.woff2") format("woff2");
+  src: url("./woff2/utopia-bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -30,5 +30,5 @@
   font-style: italic;
   font-weight: bold;
   font-stretch: 100%;
-  src: url("./fonts/utopia-bold-italic.woff2") format("woff2");
+  src: url("./woff2/utopia-bold-italic.woff2") format("woff2");
 }
