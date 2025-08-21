@@ -1,6 +1,12 @@
 body {
   margin: auto;
-  max-width: 32rem;
+  padding: 0 1rem;
+  max-width: 36rem;
   font-family: Utopia, serif;
   line-height: 1.375;
+}
+
+pre {
+  font-size: 0.625rem;
+  line-height: 1.125;
 }

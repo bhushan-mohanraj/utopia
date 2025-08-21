@@ -6,16 +6,82 @@
 
     <title>Utopia</title>
 
-    <link href="./fonts/utopia.css" rel="stylesheet">
-    <link href="./normalize.css" rel="stylesheet">
-    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/utopia.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <h1>Utopia</h1>
 
     <p>
-      Utopia is a transitional serif font family.
-      This project provides web support for Utopia.
+      Utopia is a clean and versatile serif font family,
+      designed by <a href="https://fonts.adobe.com/designers/robert-slimbach">Robert Slimbach</a> at Adobe
+      in the 1980s
+      and licensed as as free font since 2006.
     </p>
+
+    <p>
+      This project provides web support for Utopia,
+      specifically, WOFF2 files and CSS definitions.
+      <a href="https://github.com/bhushan-mohanraj/utopia">View</a>
+      the font files and source on GitHub.
+    </p>
+
+    <h2>History</h2>
+
+    <p>
+      Utopia began as a proprietary font,
+      but Adobe licensed it as a free font to the TeX Users Group
+      (TUG, a community organization for TeX and LaTeX).
+      TUG <a href="https://tug.org/fonts/utopia/LICENSE-utopia.txt">sublicenses Utopia</a>
+      as a free font to all.
+      The license is custom
+      and differs slightly from the standard SIL Open Font License.
+    </p>
+
+    <p>
+      Utopia is free in its normal and bold variations (regular and italic).
+      Adobe and other font vendors still sell commercial licenses
+      for the full range of weights (100 to 900).
+    </p>
+
+    <h2>Usage</h2>
+
+    <p>
+      Use Utopia in your website
+      by linking the font face stylesheet in <code>head</code>.
+    </p>
+
+    <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/bhushan-mohanraj/utopia/dist/utopia.css&quot;&gt;</code></pre>
+
+    <p>
+      Then, set the font family to <code>Utopia</code>.
+      A simple website would look like:
+    </p>
+
+    <pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+
+    &lt;title&gt;Utopia&lt;/title&gt;
+
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/bhushan-mohanraj/utopia/dist/utopia.css&quot;&gt;
+
+    &lt;style&gt;
+      body {
+        font-family: Utopia, serif;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world&lt;/h1&gt;
+
+    &lt;p&gt;
+      A simple website using Utopia.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
   </body>
 </html>
