@@ -6,7 +6,7 @@ Run `./build.sh` after installing all requirements.
 
 ### Requirements
 
-- FontForge must be installed and added to `PATH`.
+- FontForge must be installed and added to `PATH`
+  for generating WOFF2 files (`src/woff2`).
 - Node must be installed,
-  and Lightning CSS should be installed
-  with `npm install --save-dev lightningcss`.
+  and dependencies should be installed with `npm install`.
