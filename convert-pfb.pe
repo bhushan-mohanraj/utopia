@@ -1,2 +1,2 @@
-Open("src/" + $1 + ".pfb")
-Generate("dist/" + $2 + ".woff2")
+Open("src/fonts/" + $1 + ".pfb")
+Generate("dist/fonts/" + $2 + ".woff2")

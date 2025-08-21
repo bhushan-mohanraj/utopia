@@ -1,4 +1,4 @@
-mkdir -p dist
+mkdir -p dist/fonts
 
 fontforge -script convert-pfb.pe putr8a utopia-regular
 fontforge -script convert-pfb.pe putri8a utopia-italic
