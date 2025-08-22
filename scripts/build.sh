@@ -1,4 +1,4 @@
-mkdir -p src/woff2
+mkdir -p src/fonts/woff2
 
 fontforge -script scripts/convert-pfb.pe putr8a utopia-regular
 fontforge -script scripts/convert-pfb.pe putri8a utopia-italic
